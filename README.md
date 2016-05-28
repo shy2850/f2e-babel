@@ -11,4 +11,4 @@ a demo of babel in f2e-server
 
 # 查看
 
-[http://localhost:8080/index.html](http://localhost:8080/index.html)
+[http://localhost/index.html](http://localhost/index.html)

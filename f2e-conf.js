@@ -14,7 +14,6 @@ exports.localhost = {
         get: function (pathname) {
             if (pathname.match(/\.js$/)) {
                 return {
-                    host: 'localhost',
                     // 方便调试 jsx
                     path: function (req) {
                         var url = req.path.replace(/\.js$/, '.jsx');

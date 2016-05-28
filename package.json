@@ -1,9 +1,10 @@
 {
   "name": "f2e-babel",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "a demo of babel in f2e-server",
   "main": "index.html",
   "scripts": {
+    "start": "f2eserver start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
