@@ -15,7 +15,6 @@ exports.localhost = {
             if (pathname.match(/\.js$/)) {
                 return {
                     host: 'localhost',
-                    port: 8080,
                     // 方便调试 jsx
                     path: function (req) {
                         var url = req.path.replace(/\.js$/, '.jsx');
@@ -25,7 +24,6 @@ exports.localhost = {
             }
         }
     },
-    port: 8080,
     output: output
 };
 exports.localhost1 = {
