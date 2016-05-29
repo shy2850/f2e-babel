@@ -7,8 +7,8 @@ a demo of babel in f2e-server
 
 # 启动
 
-`` f2eserver start ``
+`` npm start ``
 
 # 查看
 
-[http://localhost/index.html](http://localhost/index.html)
+[http://localhost/index.html?listen](http://localhost/index.html)
