@@ -2,7 +2,6 @@ var path = require('path');
 var output = path.join(__dirname, '../f2e-babel-out/');
 exports.localhost = {
     root: path.join(__dirname, './'),
-    include: "\\$include\\[[\"'\\s]*([^\"'\\s]+)[\"'\\s]*\\]",
     runJsBefore: true,
     runJs: false,
     // https://babeljs.io/docs/plugins/
