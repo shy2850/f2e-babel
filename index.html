@@ -10,8 +10,19 @@
    <div id="root">
        
    </div>
+   <div id="list">
+   	
+   </div>
    <script>
-       require(['todo/index']);
+   		if (!location.search) {
+   			setTimeout(function() {
+   				location.search = '?listen=true';
+   			}, 3000);
+   		}
+       	require(['counter/index', 'todo/index'], function (counter, todo) {
+       		counter.render('root');
+       		todo.render('list');
+       	});
    </script> 
 </body>
 </html>

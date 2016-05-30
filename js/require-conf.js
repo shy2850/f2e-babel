@@ -8,7 +8,8 @@
         'react': 'lib/react',
         'react-dom': 'lib/react-dom',
         'react-redux': 'lib/react-redux',
-        'redux': 'lib/redux',
+        'redux-thunk': 'lib/redux-thunk',
+        'redux': 'lib/redux'
     };
     require.config({
         baseUrl: '/js',
@@ -19,6 +20,9 @@
             },
             'react-redux': {
                 deps: ['react', 'redux']
+            },
+            'redux-thunk': {
+                deps: ['redux']
             }
         }
     });
