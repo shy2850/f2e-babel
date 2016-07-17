@@ -6,6 +6,7 @@ exports.localhost = {
     runJs: false,
     // https://babeljs.io/docs/plugins/
     babel: {
+        only: '*.jsx',
         plugins: ['babel-plugin-transform-es2015-modules-amd'],
         presets: ['react', 'es2015']
     },
