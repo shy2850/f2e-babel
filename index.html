@@ -13,6 +13,9 @@
    <div id="list">
    	
    </div>
+   <div id="checkbox-holder">
+     
+   </div>
    <script>
    		if (!location.search) {
    			setTimeout(function() {
@@ -23,6 +26,9 @@
        		counter.render('root');
        		todo.render('list');
        	});
+        require(['checkbox/index'], function (checkbox) {
+          checkbox.render('checkbox-holder');
+        });
    </script> 
 </body>
 </html>
