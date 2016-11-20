@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="240" name="MobileOptimized">
+    <meta content="YES" name="apple-touch-fullscreen">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="max-age=3600" http-equiv="Cache-Control">
+    <meta content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" name="viewport">
+    <title>滑动确定</title>
+    <style>
+        .btn-switch {
+            position: relative;
+            width: 200px;
+            overflow: hidden;
+            font: normal 14px/24px "Microsoft Yahei";
+            height: 24px;
+            border: 1px solid #d2d2d2;
+            border-radius: 12px;
+        }
+        .btn-switch > * {
+            width: 50%;
+            text-align: center;
+        }
+        .btn-switch .slide {
+            position: absolute;
+            height: 100%;
+            background: #60e;
+            color: #fff;
+            border-radius: 12px;
+            left: 100px;
+            top: 0;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="btn-switch">
+    <div class="inner">
+        还等神马？
+    </div>
+    <div class="slide" href="javascript:void(0)">
+        我就来
+    </div>
+</div>
+
+<div class="btn-switch">
+    <div class="inner">
+        看毛？
+    </div>
+    <div class="slide" href="javascript:void(0)">
+        就看
+    </div>
+</div>
+
+<script data-main="slider" src="//apps.bdimg.com/libs/require.js/2.1.11/require.min.js"></script>
+</body>
+</html>

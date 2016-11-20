@@ -9,7 +9,7 @@
         'react-dom': 'lib/react-dom',
         'react-redux': 'lib/react-redux',
         'redux-thunk': 'lib/redux-thunk',
-        'redux': 'lib/redux'
+        'redux': 'lib/redux.src'
     };
     require.config({
         baseUrl: '/js',
